@@ -29,7 +29,7 @@ if (index).between?(0, 8) == true || position_taken?(board, index) == nil
 else position_taken?(board, index) == true
     return false
 end
-true
+return true
 end
 
 
