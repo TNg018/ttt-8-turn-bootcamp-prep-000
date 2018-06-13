@@ -29,7 +29,6 @@ if (index).between?(0, 8) || position_taken?(board, index) == nil
 else position_taken?(board, index)
     return false
 end
-return true
 end
 
 
