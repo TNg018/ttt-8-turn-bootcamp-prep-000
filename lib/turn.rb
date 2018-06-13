@@ -35,7 +35,6 @@ until valid_move?(board, index) == true
   puts "Please enter 1-9:"
   user_input = gets.strip
   index = input_to_index(user_input)
-return false
 end
 move(board, index, character = "X")
 display_board(board)
