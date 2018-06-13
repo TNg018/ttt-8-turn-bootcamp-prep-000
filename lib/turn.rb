@@ -33,11 +33,7 @@ end
 
 
 def turn(board)
-  puts "Please enter 1-9:"
-  input = gets.strip
-  index = input_to_index(input)
 until valid_move?(board, index) == true
-  puts "Please try a valid move. Use an empty location 1 through 9"
   puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
